@@ -31,7 +31,9 @@ print(user)
 user.update({'cats': 2})
 print(user)
 
-# .append()
+# .append(), agregar elementos al diccionario,
+# se crea una key 'skyls' y se le asigna el propio user.get(skills) y con
+# una coma y los corchetes (skills, []) se agrega una lista vacía en el diccionario
 user['skills'] = user.get('skils', [])
 print(user)
 
